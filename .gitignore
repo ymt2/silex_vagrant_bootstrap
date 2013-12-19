@@ -1,0 +1,9 @@
+/*
+/.*
+!/.gitignore
+!/web
+!/vagrant
+!/src
+!/test
+!composer.json
+/vagrant/.vagrant
