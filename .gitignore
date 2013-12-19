@@ -6,4 +6,5 @@
 !/src
 !/test
 !composer.json
+!README.rst
 /vagrant/.vagrant
