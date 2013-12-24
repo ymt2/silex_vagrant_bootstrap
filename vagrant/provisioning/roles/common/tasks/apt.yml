@@ -1,2 +1,5 @@
-- name: apt-get update
-  apt: update_cache=yes
+- name: install python-software-properties
+  apt: pkg=python-software-properties update_cache=yes
+
+- name: add php5 repository
+  apt_repository: repo='ppa:ondrej/php5'

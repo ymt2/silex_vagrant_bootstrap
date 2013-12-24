@@ -1,0 +1,8 @@
+- name: install php5
+  apt: pkg=php5
+
+- name: install composer
+  shell: curl -sS https://getcomposer.org/installer | php chdir=/share
+
+- name: execute composer
+  command: /share/composer.phar install chdir=/share
