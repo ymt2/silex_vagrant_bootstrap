@@ -5,6 +5,7 @@
 !/vagrant
 !/src
 !/test
+!/provisioning
 !composer.json
 !README.rst
 /vagrant/.vagrant
